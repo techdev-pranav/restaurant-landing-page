@@ -1,0 +1,41 @@
+.app__offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #56112e;
+    
+}
+
+.app__offers-content {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+}
+
+.app__offers-content h1, .app__offers-content p{
+    color: #ffd9ac;
+}
+
+.app__offers-content button {
+    background-color: #ffd9ac;
+    color: #56112e;
+}
+
+.app__offers-image {
+    height: 100vh;
+    width: 50%;
+}
+
+.app__offers-image img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin-top: 40px;
+}

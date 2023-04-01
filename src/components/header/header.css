@@ -1,0 +1,29 @@
+.app__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 0;
+    background-color: #56112e;
+    position: fixed;
+    width: 100%;
+}
+
+.app__header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.app__header li {
+    margin: 0 25px;
+}
+
+.app__header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 350;
+    color: white;
+}

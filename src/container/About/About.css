@@ -1,0 +1,33 @@
+.app__about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #ffd9ac
+
+}
+
+.app__about-image {
+    width: 50%;
+    height: 100vh;
+}
+
+.app__about-image img {
+    width: 80%;
+    height: 80%;
+    border-radius: 20%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.app__about-content {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+
+}

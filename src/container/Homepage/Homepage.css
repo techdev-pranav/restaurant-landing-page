@@ -1,0 +1,60 @@
+.app__home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('../../assets/img3.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.app__home-content {
+    width: 50%;
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    text-align: start;
+
+}
+
+.app__home-content img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+.app__home-content h1 {
+    color: #ffd9ac;
+    margin: 10px;
+    margin-left: 100px;
+    font-size: 108px
+    
+}
+
+.app__home-content p {
+    color: #ffd9ac;
+    margin: 10px;
+    margin-left: 100px;
+    font-size: 36px
+
+}
+
+.app__home-content button {
+    background-color: #ffd9ac;
+    color: #56112e;
+    margin: 10px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.app__home-image {
+    width: 50%;
+    height: 100vh;
+}

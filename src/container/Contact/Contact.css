@@ -1,0 +1,44 @@
+.app__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #ffd9ac;
+    flex-direction: column;
+
+}
+
+
+.app__contact-input {
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app__contact-input input {
+    height: 40px;
+    width: 400px;
+    border-radius: 40px;
+    border: none;
+    padding-left: 20px;
+}
+
+.app__contact-input input::placeholder {
+    color: lightgray;
+}
+
+.app__contact-input button {
+    height: 40px;
+    width: 150px;
+    background-color: #56112e;
+    color: white;
+    border-radius: 40px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    margin-left: 450px;
+}
